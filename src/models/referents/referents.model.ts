@@ -1,3 +1,14 @@
+import { TextFormatOptions } from '../response-formats/response-formats.model';
+
+export interface GetReferentsOptions {
+  created_by_id: number;
+  song_id: number;
+  web_page_id: number;
+  text_format: TextFormatOptions;
+  per_page: number;
+  page: number;
+}
+
 export interface ReferentsResponse {
   meta:     Meta;
   response: Response;

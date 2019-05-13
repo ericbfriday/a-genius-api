@@ -27,7 +27,7 @@ declare interface GeniusDomElementNode {
   children: GeniusDomElementNode[] | string;
 }
 
-enum TextFormatOptionTypes { plain = 'plain', html = 'html', dom = 'dom' };
+export enum TextFormatOptions { plain = 'plain', html = 'html', dom = 'dom' };
 
 export interface TextFormatOptionsBase { }
 export interface TextFormatOptionPlain extends TextFormatOptionsBase {
