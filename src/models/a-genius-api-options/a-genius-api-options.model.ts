@@ -1,4 +1,3 @@
 export class GeniusApiOptions {
-  constructor() { }
-
+	constructor(host: string, hostName: string) {}
 }

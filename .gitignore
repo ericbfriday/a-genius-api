@@ -59,9 +59,6 @@ typings/
 
 # next.js build output
 .next
-<<<<<<< HEAD
 
 # custom ignores:
-ignore-this/
-=======
->>>>>>> 3263af8d587d327161e205d91e874c2c3179bf87
+test/.dev-only-access-token.ts
